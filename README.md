@@ -9,7 +9,7 @@ I hold a Bachelor of Arts degree in German Philology from the [Regensburg Univer
 5. Luciano Melodia: Zur Verwendung des Paradigmas brauchen mit und ohne zu mit Infinitiv. In Katešina Šichovà, Reinhard Krapp, Rössler Paul et al. (ed.): Standardvarietät des Deutschen – Fallbeispiele aus der sozialen Praxis, Logos, Berlin.
 
 # Social
-I use some of the scientific social networking opportunities. If you'd like to read my CV, please click the link in the repositorie's description or use [this one](https://karhunenloeve.github.io/CV/me.pdf). My papers are always uploaded to arXiv, thus I'll include it here as a schedule of my current and of course future work. The following list is conclusive:
+I use some of the scientific social networking opportunities. If you'd like to read my CV, please click the link in the repositorie's description or use [this one](https://karhunenloeve.github.io/CurriculumVitae/CurriculumVitae.pdf). My papers are always uploaded to arXiv, thus I'll include it here as a schedule of my current and of course future work. The following list is conclusive:
 
 + ORCID: [https://orcid.org/0000-0002-7584-7287](https://orcid.org/0000-0002-7584-7287)
 + ArXiv: [https://arxiv.org/a/melodia_l_1.html](https://arxiv.org/a/melodia_l_1.html)

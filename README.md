@@ -1,0 +1,15 @@
+# What I did
+I hold a Bachelor of Arts degree in German Philology from the [Regensburg University](https://www.uni-regensburg.de/), having written the thesis under the supervision of [Prof. Dr. phil. Paul Rössler](https://www.uni-regensburg.de/sprache-literatur-kultur/germanistik-sw-1/roessler/) and having studied in the scope of which German and Italian Philology, Media Informatics and Information Science as major fans. I have received my Master of Arts degree in Information Science, having written [the thesis](https://arxiv.org/pdf/1805.09108.pdf) at the [Institute of Biophysics and Physical Biochemistry](http://www-aglang.uni-regensburg.de/) under the supervision of [Prof. Dr. rer. nat. Elmar Lang](http://www-aglang.uni-regensburg.de/). I worked in the field of Evolutionary Data Management as a research assistant under the supervision of [Prof. Dr.-Ing. Richard Lenz](https://www.cs6.tf.fau.de/person/richard-lenz/). Currently, I pursue my Bachelor of Science degree in Mathematics at the [Friedrich-Alexander University Erlangen Nürnberg](https://math.fau.de).
+
+# Publications
+1. Luciano Melodia and Richard Lenz: Homological Time Series Analysis of Sensor Signals from Power Plants. Machine Learning for Irregular Time Series. Machine Learning and Principles and Practice of Knowledge Discovery in Databases. In Michael Kamp, Irena Koprinska, Adrien Bibal et al. (ed.): Communications in Computer and Information Science. Springer Nature, Switzerland.
+2. Luciano Melodia and Richard Lenz: Estimate of the Neural Network Dimension Using Algebraic Topology and Lie Theory. Image Mining. Theory and Applications VII. Pattern Recognition and Information Forensics. In Alberto Del Bimbo, Rita Cucchiara, Stan Sciaroff et al. (ed.): Lecture Notes in Computer Science. Springer Nature, Switzerland
+3. Luciano Melodia and Richard Lenz: Persistent Homology as Stopping-Criterion for Voronoi Interpolation. Proceedings of the International Workshop on Combinatorial Image Analysis. In Tibor Lukić, Reneta Barneva, Valentin Brimkov et al. (ed.): Lecture Notes in Computer Science. Springer, Cham.
+4. Luciano Melodia: Deep Learning Schätzung zur absorbierten Strahlungsdosis für die nuklearmedizinische Diagnostik. Library of the University of Regensburg, Master Thesis in Information Science.
+5. Luciano Melodia: Zur Verwendung des Paradigmas brauchen mit und ohne zu mit Infinitiv. In Katešina Šichovà, Reinhard Krapp, Rössler Paul et al. (ed.): Standardvarietät des Deutschen – Fallbeispiele aus der sozialen Praxis, Logos, Berlin.
+
+# Social
+I use some of the scientific social networking opportunities. If you'd like to read my CV, please click the link in the repositorie's description or use [this one](https://karhunenloeve.github.io/CV/me.pdf). My papers are always uploaded to arXiv, thus I'll include it here as a schedule of my current and of course future work. The following list is conclusive:
+
++ ORCID: [https://orcid.org/0000-0002-7584-7287](https://orcid.org/0000-0002-7584-7287)
++ ArXiv: [https://arxiv.org/a/melodia_l_1.html](https://arxiv.org/a/melodia_l_1.html)

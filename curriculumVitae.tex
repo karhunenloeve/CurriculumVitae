@@ -12,8 +12,9 @@
 \usepackage{academicons}
 \usepackage{hanging}
 \usepackage{enumitem}
-
+\usepackage{tikz}
 \usepackage{classicthesis}
+\usepackage[export]{adjustbox}
 \geometry{
   a4paper,
   textwidth      = 14.0cm,
@@ -76,6 +77,10 @@
   \end{flushleft}
 }
 
+\begin{tikzpicture}[remember picture,overlay]
+    \node[xshift=135mm,yshift=-20mm,anchor=north west] at (current page.north west){%
+    \includegraphics[cfbox=CTurl 1pt 0pt, width=40mm]{me.png}};
+\end{tikzpicture}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Education}

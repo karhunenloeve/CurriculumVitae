@@ -34,6 +34,12 @@
 \definecolor{darkmagenta}{rgb}{0.55, 0.0, 0.55}
 \definecolor{denim}{rgb}{0.08, 0.38, 0.74}
 
+\NewDocumentCommand{\statcirc}{ O{#2} m }{%
+    \begin{tikzpicture}[every node/.style={inner sep=0,outer sep=-1}]
+    \fill[#2] (0,0) circle (0.55ex);
+    \fill[#1] (0,0) -- (180:0.55ex) arc (180:0:0.55ex) -- cycle;
+    \end{tikzpicture}
+}
 \newcommand  {\rd}{\textsuperscript{\textup{rd}}\xspace}
 \newcommand  {\nd}{\textsuperscript{\textup{nd}}\xspace}
 \renewcommand{\th}{\textsuperscript{\textup{th}}\xspace}
@@ -87,83 +93,37 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Professions}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\years{2021--22} \href{}{Working Student} Corscience GmbH \& Co. KG, Erlangen.\\
+\years{2023} \href{}{Mathematics and computer science tutoring}, Erlangen.\\
+\years{2021--22} \href{}{Working student} Corscience GmbH \& Co. KG, Erlangen.\\
 \years{2020--21} Researcher Professorship for Evolutionary Data Management, FAU Erlangen-Nürnberg.\\
 \years{2018--21} Researcher Chair of Computer Science 6, FAU Erlangen-Nürnberg.\\
 \years{2020--21} Researcher Siemens Energy AG, Erlangen.\\
 \years{2019--20} Researcher Siemens Gas and Power GmbH \& Co. KG, Erlangen.\\
-\years{2017--18} Data Scientist at mb Support GmbH, Regensburg.\\
-\years{2015--17} Working Student mb Support GmbH, Regensburg.\\
-\years{2014--15} Research Assistant Chair of German Linguistics, Regensburg University.\\
+\years{2017--18} Data scientist at mb Support GmbH, Regensburg.\\
+\years{2015--17} Working student mb Support GmbH, Regensburg.\\
+\years{2014--15} Research assistant Chair of German Linguistics, Regensburg University.\\
 \years{2013--14} Student assistant Chair of German Linguistics, Regensburg University.\\
-\years{2012--15} Chef in Event Gastronomy Apostelkeller, Regensburg.\\
-\years{2012--15} Staff-based Services Trademarketing Service GmbH, Salzgitter. \\
+\years{2012--15} Chef in event gastronomy Apostelkeller, Regensburg.\\
+\years{2012--15} Staff-based services Trademarketing Service GmbH, Salzgitter. \\
 \years{2012--14} Translator for Italian and English at Anatol GmbH \& Co. KG, Regensburg.\\
-\years{2010} Compassion Project, Alten- und Pflegeheim St. Josef, Regensburg.
+\years{2010} Compassion project, Alten- und Pflegeheim St. Josef, Regensburg.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Conferences attended}
+\section*{Academic Work}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\years{2022} LOG, virtual.\\
-\years{2022} ICLR, virtual.\\
-\years{2021} ML4ITS, Bilbao, Spain.\\
-\years{2021} ICPR, Milano, Italy.\\
-\years{2020} TDA and Beyond, NeuRIPS, Vancouver, Canada.\\
-\years{2020} ICPMD, Kerala, India.\\
-\years{2020} IWCIA, Novi Sad, Serbia.\\
-\years{2020} ECML/PKDD, Gent, Belgium.\\
-\years{2019} ECML/PKDD, Würzburg, Germany.\\
-\years{2019} SIGMOD/PODS, Amsterdam, Netherlands.\\
-\years{2017} TCLS, Regensburg, Germany.\\
-\years{2013} (De-)S/S\&SSP, Prague, Czech Republic.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Lectures held}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\years{\href{https://www.fau.de/}{FAU} 2021} Knowledge Discovery in Databases. \\
-\years{\href{https://www.fau.de/}{FAU} 2020} Persistent Homology in Data Analytics. \\
-\years{\href{https://www.fau.de/}{FAU} 2020} Topological Data Analysis. \\
-\years{\href{https://www.fau.de/}{FAU} 2019--2020} Process Oriented Information Systems.\\
-\years{\href{https://www.fau.de/}{FAU} 2018--2021} New Technologies in Data Management.\\
-\years{\href{https://www.fau.de/}{FAU} 2018--2020} Computer Science for Engineers.\\
-\years{\href{https://www.fau.de/}{FAU} 2018--2019} Big Data Seminar.\\
-\years{\href{https://www.fau.de/}{FAU} 2018} Conceptional Modeling.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Talks given}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\years{2021} Homological Time Series Analysis of Sensor Signals from Power Plants, ML4ITS. \\
-\years{2021} Homological Inference of Embedding Dimension in Neural Networks, IMTA, Milano. \\
-\years{2020} Simplicial Databases, Schemas and Realisations, FAU Erlangen-Nürnberg. \\
-\years{2020} Tools for Schema Inference, Siemens AG. \\
-\years{2020} Introduction to Persistent Homology, Christ Nagar College, Kerala, India. \\
-\years{2020} Stop Interpolation Topologically, IWCIA, Novi Sad. \\
-\years{2020} Homological Perspective on Data, FAU Erlangen-Nürnberg.\\
-\years{2019} Literature and Tools for Topological Data Analysis, Siemens AG.\\
-\years{2019} Topological Data Analysis in Machine Learning, FAU Erlangen-Nürnberg.\\
-\years{2015} The Scientific Social Network \emph{punc.space}. Regensburg University.\\
-\years{2014} Brauchen mit zu und Infinitiv. Univerzita Karlova, Prague.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Public Service}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\years{2022} Reviewer, Learning on Graphs, LOG.\\
-\years{2022} Reviewer, Geometrical and Topological Representation Learning, ICLR.\\
-\years{2020} Reviewer, TDA and Beyond, NeuRIPS.\\
-\years{2020} Reviewer, ECML/PKDD.\\
-\years{2019--20} Member Gesellschaft für Informatik e.V.\\
-\years{2017--18} Member Computational Intelligence and Machine Learning Group.\\
-\years{2016} Student Representative Information Science, University of Regensburg.\\
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Supervision}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\years{2021, \texttt{B.Sc.}} D. Hahn: Classification of Sensor Signals from Power Plants.\\
-\years{2021, \texttt{M.Sc.}} C. Sauerhammer: A Classification Dashboard for Sensor Signals from Power Plants.\\
-\years{2021, \texttt{B.Sc.}} J. Schäfer: Learning Validation Models from Sensors of a Power Plant.\\
-\years{2020, \texttt{M.Sc.}} M. Seidel: Classification of Microbes using Time Series Gas Sensor Array Data.\\
-\years{2020, \texttt{M.Sc.}} M.R. Siddiqui: Extraction of Fetal and Maternal Heartbeats from ECG Signals.\\
+\years{Lectures} Knowledge Disovery in Databases (FAU, 2021) \bullet{} Persistent Homology in Data Analytics Seminar (FAU, 2020) \bullet{} Topological Data Analysis Seminar (FAU, 2020) \bullet{} Process Oriented Information Systems (FAU, 2019 -- 20) \bullet{} New Technologies in Data Management (FAU, 2018 -- 21) \bullet{} Computer Science for Engineers (FAU, 2018 -- 20) \bullet{} Big Data Seminar (FAU, 2018 -- 19) \bullet{} Conceptional Modeling (FAU, 2018). \\
+\years{Conferences} Learning on Graphs (LOG, 2022) \bullet{} International Conference on Learning Representations (ICLR, 2022) \bullet{} Machine Learning for Irregular Time Series (ML4ITS, 2021), Bilbao Spain \bullet{} International Conference on Pattern Recognition (ICPR, 2021), Milano Italy \bullet{} Topological Data Analysis and Beyong (NeuRIPS, 2020), Vancouver, Canada \bullet{} International Conference on Practical Mathematical Discourse (ICPMD, 2020) Kerala, India \bullet{} International Workshop on Combinatorial Image Analysis (IWCIA, 2020) Novi Sad, Serbia \bullet{} European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML/PKDD, 2019) Würzburg, Germany  (ECML/PKDD, 2020) Gent, Belgium \bullet{} Symposium on Principles of Database Systems (SIGMOD/PODS, 2019) Amsterdam, Netherlands \bullet{} Kolloquium zum Sprachmanagement (2017), Regensburg, Germany \bullet{} Destandardisierung und Standardvarietät (2013) Prague, Czech Republic. \\
+\years{Service} Reviewer Learning on Graphs (LOG, 2022) \bullet{} Reviewer Geometrical and Topological Representation Learning (ICLR, 2022) \bullet{} Reviewer TDA and Beyond (NeuRIPS, 2021) \bullet{} Reviewer (ECML/PKDD, 2020) \bullet{} Member Gesellschaft für Informatik e.V. (2019 -- 20) \bullet{} Member Computational Intelligence and Machine Learning Group (2017 -- 18) \bullet{} Student Representative Information Science (Regensburg University, 2016).\\
+\years{Supervision} B.Sc. D. Hahn (2021):\\
+\emph{Classification of Sensor Signals from Power Plants.} \\
+M.Sc. C. Sauerhammer (2021): \\
+\emph{A Classification Dashboard for Sensor Signals from Power Plants.} \\
+B.Sc. J. Schäfer (2021): \\
+\emph{Learning Validation Models from Sensors of a Power Plant.} \\
+M.Sc. M. Seidel (2020): \\ 
+\emph{Classification of Microbes using Time Series Gas Sensor Array Data.} \\
+M.Sc. M.R. Siddiqui (2020): \\
+\emph{Extraction of Fetal and Maternal Heartbeats from ECG Signals.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Papers}
@@ -193,13 +153,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Education}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\years{2018--21} Graduate Program in Computer Science, FAU Erlangen Nürnberg.\\
-\years{2015--18, \texttt{M.A.}} Information Science, Regensburg University.\\
-\years{2021--24, \texttt{B.Sc.}} Mathematics, Computer Science, FAU Erlangen-Nürnberg.\\
-\years{2012--15, \texttt{B.A.}} German Philology, Italian Philology, \\
-                                Information Science, Media Informatics, Regensburg University.\\
-\years{2012--13} Web Developer Certificate, Rechenzentrum Regensburg University.\\
-\years{2012} Abitur, Albertus-Magnus-Gymnasium, Regensburg.
+\years{2015 -- 18} Master of Arts (M.A.) Information Science, Regensburg University. \\
+\years{2021 -- 24} Bachelor of Science (B.Sc.) Mathematics, Computer Science, Friedrich-Alexander University Erlangen-Nürnberg. \\
+\years{2012 -- 15} Bachelor of Arts (B.A.) German Philology, Italian Philology, Information Science and Media Informatics, Regensburg University. \\
+\years{2012 -- 13} Web Developer, Rechenzentrum Regensburg University. \\
+\years{2012} Abitur, Albertus-Magnus-Gymnasium, Regensburg. \\
+\years{Certificates} Data Visualization with ggplot II \bullet{} Data Visualization with ggplot I \bullet{} Deep learning in Python \bullet{} Text Mining: Bag of Words \bullet{} Introduction to Machine Learning \bullet{} Machine Learning Toolbox \bullet{} Intro to Python for Data Science \bullet{} Exploratory Data Analysis \bullet{} Introduction to R \bullet{} Supervised learning in R: Regression \bullet{} Supervised Learning in R: Classification \bullet{} Credit Risk Modeling in R \bullet{} Data visualization in R \bullet{} Intermediate R: Practice Course \bullet{} Intermediate R \bullet{} Discrete Mathematics \bullet{} Mathematics for Machine Learning: Linear Algebra \bullet{} Mathematics for Machine Learning: Multivariate Calculus \bullet{} Machine Learning from a Mathematical Viewpoint \bullet The Python Mega Course: Build 10 Real World Applications \bullet{} The Rust Programming Language \bullet{} Evolutionary Game Theory \bullet{}
+Introduction to Complex Analysis.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Interests}
@@ -207,19 +167,17 @@
 \years{Code} Python, Rust, \LaTeX, CSS, HTML, XML, JavaScript, PHP, C\#, Java.\\
 \years{Software} GUDHI, Dionysus, Keras, Theano and Tensorflow.\\
 \years{Language} German (native), English C2, Italian C2, Polish B2 and Spanish A2.\footnote{Language levels are self estimates according to the \href{https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages}{CEFR} standard.}\\
-\years{Math} Homology Theory, Geometry.\\
+\years{Math} Homology \& Cohomology, Commutative Algebra.\\
 \years{Computer science} Topological Data Analysis, Neural Networks.\\
-\years{Sports} Muay Thai, Table Tennis, Soccer.\\
-\years{Certificates} Data Visualization with ggplot II \bullet{} Data Visualization with ggplot I \bullet{} Deep learning in Python \bullet{} Text Mining: Bag of Words \bullet{} Introduction to Machine Learning \bullet{} Machine Learning Toolbox \bullet{} Intro to Python for Data Science \bullet{} Exploratory Data Analysis \bullet{} Introduction to R \bullet{} Supervised learning in R: Regression \bullet{} Supervised Learning in R: Classification \bullet{} Credit Risk Modeling in R \bullet{} Data visualization in R \bullet{} Intermediate R: Practice Course \bullet{} Intermediate R \bullet{} Discrete Mathematics \bullet{} Mathematics for Machine Learning: Linear Algebra \bullet{} Mathematics for Machine Learning: Multivariate Calculus \bullet{} Machine Learning from a Mathematical Viewpoint  \bullet{} Lie Groups \bullet{} Geometry of Manifolds \bullet The Python Mega Course: Build 10 Real World Applications \bullet{} The Rust Programming Language \bullet{} Evolutionary Game Theory \bullet{}
-Introduction to Complex Analysis.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Sports}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\years{2020--23} {\Large\circ} {\Large\color{amber}\bullet} {\Large\color{bittersweet}\bullet} {\Large\color{darkcyan}\bullet} {\Large\color{denim}\bullet} {\Large\color{denim}\circ} {\Large\color{darkmagenta}\bullet} pra jiad in Muay Thai.\\
-\years{2020--23} {\Large\color{amber}\bullet} {\Large\color{bittersweet}\bullet} {\Large\color{darkcyan}\bullet} sash in Weng Chun Kung Fu.\\
-\years{2023} Training in the WMC Lamai Muay Thai Camp, Koh Samui, Thailand.\\
-\years{2020--22} Member Kung Fu Zentrum Erlangen, Germany.\\
-\years{2011--13} Member Deutscher Alpenverein e.V.\\
-\years{2006--10} Member SG Walhalla Regensburg e.V.
+\years{Sports} 
+{\Large\circ} {\Large\color{amber}\circ} {\Large\color{bittersweet}\circ} {\Large\color{darkcyan}\circ} {\Large\color{denim}\circ} {\Large\color{darkmagenta}\circ} Pra Jiad in Muay Thai (2020 -- 23).\\
+Lamai Amateur Beach Cup $\leq 76$kg $2^{\text{nd}}$ place, Koh Samui, Thailand (2023).\\
+Weng Chun Teaching (substitution), Kung Fu Zentrum Erlangen, Germany (2023).\\
+Member WMC Lamai Muay Thai Camp, Koh Samui, Thailand (2023).\\
+{\Large\color{amber}\bullet} {\Large\color{bittersweet}\bullet} {\Large\color{darkcyan}\bullet} Sash in Weng Chun (2020 -- 23).\\
+Weng Chun Summer Camp, Bamberg, Germany (2021).\\
+Member Kung Fu Zentrum Erlangen, Germany (2020 -- 21).\\
+Member Deutscher Alpenverein e.V. (2011 -- 13).\\
+{\Large\circ} {\Large\color{amber}\circ} {\Large\color{amber}\bullet} {\Large\color{bittersweet}\circ} {\Large\color{bittersweet}\bullet} {\Large\color{darkcyan}\circ} {\Large\color{darkcyan}\bullet} Belt in Judo (2006 -- 10).\\
+Member SG Walhalla Regensburg e.V. (2006 -- 10).
 \end{document}

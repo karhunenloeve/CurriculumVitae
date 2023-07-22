@@ -12,6 +12,7 @@
 \usepackage{academicons}
 \usepackage{hanging}
 \usepackage{enumitem}
+\usepackage{etaremune}
 \usepackage{tikz}
 \usepackage{classicthesis}
 \usepackage[export]{adjustbox}
@@ -34,6 +35,7 @@
 \definecolor{darkmagenta}{rgb}{0.55, 0.0, 0.55}
 \definecolor{denim}{rgb}{0.08, 0.38, 0.74}
 
+\setlist[enumerate]{nosep}
 \NewDocumentCommand{\statcirc}{ O{#2} m }{%
     \begin{tikzpicture}[every node/.style={inner sep=0,outer sep=-1}]
     \fill[#2] (0,0) circle (0.55ex);
@@ -93,13 +95,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Professions}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\years{2023} Student assistant Chair of Representation Theory and Operator Algebras, \\
-             FAU Erlangen-Nürnberg.\\
+\years{2024} Student assistant Algebra and Geometry, FAU\footnote{Friedrich-Alexander University Erlangen-Nürnberg.}.\\
+\years{2023} Student assistant Representation Theory and Operator Algebras, FAU.\\
 \years{2023} Chef at E-San (Isaan food), Lamai, Thailand.\\
 \years{2023} Mathematics and computer science tutoring, Erlangen.\\
 \years{2021--22} Working student Corscience GmbH \& Co. KG, Erlangen.\\
-\years{2020--21} Researcher Professorship for Evolutionary Data Management, FAU Erlangen-Nürnberg.\\
-\years{2018--21} Researcher Chair of Computer Science 6, FAU Erlangen-Nürnberg.\\
+\years{2020--21} Researcher Professorship for Evolutionary Data Management, FAU.\\
+\years{2018--21} Researcher Chair of Computer Science 6, FAU.\\
 \years{2020--21} Researcher Siemens Energy AG, Erlangen.\\
 \years{2019--20} Researcher Siemens Gas and Power GmbH \& Co. KG, Erlangen.\\
 \years{2017--18} Data scientist at mb Support GmbH, Regensburg.\\
@@ -114,11 +116,54 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Academic Work}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\years{Lectures} Exercises in Topology (FAU, 2023) \buller{} Knowledge Disovery in Databases (FAU, 2021) \bullet{} Persistent Homology in Data Analytics Seminar (FAU, 2020) \bullet{} Topological Data Analysis Seminar (FAU, 2020) \bullet{} Process Oriented Information Systems (FAU, 2019 -- 20) \bullet{} New Technologies in Data Management (FAU, 2018 -- 21) \bullet{} Computer Science for Engineers (FAU, 2018 -- 20) \bullet{} Big Data Seminar (FAU, 2018 -- 19) \bullet{} Conceptional Modeling (FAU, 2018). \\
-\years{Conferences} Learning on Graphs (LOG, 2023) \bullet{} $15^{\text{th}}$ International Conference on Advances in Databases, Knowledge,
-and Data Applications (DBKDA, 2023) \bullet{} Learning on Graphs (LOG, 2022) \bullet{} International Conference on Learning Representations (ICLR, 2022) \bullet{} Machine Learning for Irregular Time Series (ML4ITS, 2021), Bilbao Spain \bullet{} International Conference on Pattern Recognition (ICPR, 2021), Milano Italy \bullet{} Topological Data Analysis and Beyong (NeuRIPS, 2020), Vancouver, Canada \bullet{} International Conference on Practical Mathematical Discourse (ICPMD, 2020) Kerala, India \bullet{} International Workshop on Combinatorial Image Analysis (IWCIA, 2020) Novi Sad, Serbia \bullet{} European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML/PKDD, 2019) Würzburg, Germany  (ECML/PKDD, 2020) Gent, Belgium \bullet{} Symposium on Principles of Database Systems (SIGMOD/PODS, 2019) Amsterdam, Netherlands \bullet{} Kolloquium zum Sprachmanagement (2017), Regensburg, Germany \bullet{} Destandardisierung und Standardvarietät (2013) Prague, Czech Republic. \\
-\years{Service} Reviewer Learning on Graphs (LOG, 2023) \bullet{} Reviewer International Conference on Advances in Databases, Knowledge,
-and Data Applications (DBKDA, 2023) \bullet{} Reviewer Learning on Graphs (LOG, 2022) \bullet{} Reviewer Geometrical and Topological Representation Learning (ICLR, 2022) \bullet{} Reviewer TDA and Beyond (NeuRIPS, 2021) \bullet{} Reviewer (ECML/PKDD, 2020) \bullet{} Member Gesellschaft für Informatik e.V. (2019 -- 20) \bullet{} Member Computational Intelligence and Machine Learning Group (2017 -- 18) \bullet{} Student Representative Information Science (Regensburg University, 2016).\\
+\years{Lectures}
+\vspace{-2pt}
+\begin{enumerate}[noitemsep, leftmargin=*]
+    \item Exercises in Linear Algebra I (Mathematics, FAU, 2024)
+    \item Exercises in Topology (Mathematics, FAU, 2023)
+    \item Knowledge Disovery in Databases (Computer Science, FAU, 2021)
+    \item Persistent Homology in Data Analytics Seminar (Computer Science, FAU, 2020)
+    \item Topological Data Analysis Seminar (Computer Science, FAU, 2020)
+    \item Process Oriented Information Systems (Computer Science, FAU, 2019 -- 20)
+    \item New Technologies in Data Management (Computer Science, FAU, 2018 -- 21)
+    \item Computer Science for Engineers (Computer Science, FAU, 2018 -- 20)
+    \item Conceptional Modeling (Computer Science, FAU, 2018)
+\end{enumerate}
+\vspace{10pt}
+
+\years{Conferences}
+\vspace{-2pt}
+\begin{itemize}[noitemsep, leftmargin=*]
+    \item Learning on Graphs (LOG, 2023, 2022)
+    \item $15^{\text{th}}$ International Conference on Advances in Databases, Knowledge,
+and Data Applications (DBKDA, 2023)
+    \item International Conference on Learning Representations (ICLR, 2022)
+    \item Machine Learning for Irregular Time Series (ML4ITS, 2021)
+    \item International Conference on Pattern Recognition (ICPR, 2021)
+    \item Topological Data Analysis and Beyong (NeuRIPS, 2020)
+    \item International Conference on Practical Mathematical Discourse (ICPMD, 2020)
+    \item International Workshop on Combinatorial Image Analysis (IWCIA, 2020)
+    \item European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML/PKDD, 2020, 2019)
+    \item Symposium on Principles of Database Systems (SIGMOD/PODS, 2019)
+    \item Kolloquium zum Sprachmanagement (2017)
+    \item Destandardisierung und Standardvarietät (2013)
+\end{itemize}
+\vspace{10pt}
+
+\years{Service}
+\vspace{-2pt}
+\begin{itemize}[noitemsep, leftmargin=*]
+    \item Reviewer Learning on Graphs (LOG, 2023, 2022)
+    \item Reviewer International Conference on Advances in Databases, Knowledge,
+and Data Applications (DBKDA, 2023, 2020)
+    \item Reviewer Geometrical and Topological Representation Learning (ICLR, 2022)
+    \item Reviewer Topological Data Analysis and Beyond (NeuRIPS, 2021)
+    \item Member Gesellschaft für Informatik e.V. (2019 -- 20)
+    \item Member Computational Intelligence and Machine Learning Group (2017 -- 18)
+    \item Student Representative Information Science (Regensburg University, 2016)
+\end{itemize}
+\vspace{10pt}
+
 \years{Supervision} B.Sc. D. Hahn (2021):\\
 \emph{Classification of Sensor Signals from Power Plants.} \\
 M.Sc. C. Sauerhammer (2021): \\
@@ -164,8 +209,6 @@ M.Sc. M.R. Siddiqui (2020): \\
 \years{2012 -- 15} Bachelor of Arts (B.A.) German Philology, Italian Philology, Information Science and Media Informatics, Regensburg University. \\
 \years{2012 -- 13} Web Developer, Rechenzentrum Regensburg University. \\
 \years{2012} Abitur, Albertus-Magnus-Gymnasium, Regensburg. \\
-\years{Certificates} Data Visualization with ggplot II \bullet{} Data Visualization with ggplot I \bullet{} Deep learning in Python \bullet{} Text Mining: Bag of Words \bullet{} Introduction to Machine Learning \bullet{} Machine Learning Toolbox \bullet{} Intro to Python for Data Science \bullet{} Exploratory Data Analysis \bullet{} Introduction to R \bullet{} Supervised learning in R: Regression \bullet{} Supervised Learning in R: Classification \bullet{} Credit Risk Modeling in R \bullet{} Data visualization in R \bullet{} Intermediate R: Practice Course \bullet{} Intermediate R \bullet{} Discrete Mathematics \bullet{} Mathematics for Machine Learning: Linear Algebra \bullet{} Mathematics for Machine Learning: Multivariate Calculus \bullet{} Machine Learning from a Mathematical Viewpoint \bullet The Python Mega Course: Build 10 Real World Applications \bullet{} The Rust Programming Language \bullet{} Evolutionary Game Theory \bullet{}
-Introduction to Complex Analysis.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Interests}
@@ -175,6 +218,12 @@ Introduction to Complex Analysis.
 \years{Language} German (native), English C2, Italian C2, Polish B2 and Spanish A2.\footnote{Language levels are self estimates according to the \href{https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages}{CEFR} standard.}\\
 \years{Math} Homology \& Cohomology, Commutative Algebra.\\
 \years{Computer science} Topological Data Analysis, Neural Networks.\\
+\vspace{2pt}
+
+\years{Certificates} Data Visualization with ggplot II \bullet{} Data Visualization with ggplot I \bullet{} Deep learning in Python \bullet{} Text Mining: Bag of Words \bullet{} Introduction to Machine Learning \bullet{} Machine Learning Toolbox \bullet{} Intro to Python for Data Science \bullet{} Exploratory Data Analysis \bullet{} Introduction to R \bullet{} Supervised learning in R: Regression \bullet{} Supervised Learning in R: Classification \bullet{} Credit Risk Modeling in R \bullet{} Data visualization in R \bullet{} Intermediate R: Practice Course \bullet{} Intermediate R \bullet{} Discrete Mathematics \bullet{} Mathematics for Machine Learning: Linear Algebra \bullet{} Mathematics for Machine Learning: Multivariate Calculus \bullet{} Machine Learning from a Mathematical Viewpoint \bullet The Python Mega Course: Build 10 Real World Applications \bullet{} The Rust Programming Language \bullet{} Evolutionary Game Theory \bullet{}
+Introduction to Complex Analysis.\\
+\vspace{2pt}
+
 \years{Sports}
 Weng Chun Summer Camp, Bamberg, Germany (2023).\\
 {\Large\color{amber}\circ} {\Large\color{bittersweet}\circ} {\Large\color{darkcyan}\circ} {\Large\color{denim}\circ} {\Large\color{darkmagenta}\circ} {\Large\color{red}\circ} {\Large\color{brown}\circ}  {\Large\color{black}\circ} Pra Jiad in Muay Thai (2019 -- 23).\\

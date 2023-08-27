@@ -1,7 +1,7 @@
 # What I did
 I hold a Bachelor of Arts degree in German Philology from the [Regensburg University](https://www.uni-regensburg.de/), having written the thesis under the supervision of [Prof. Dr. phil. Paul Rössler](https://www.uni-regensburg.de/sprache-literatur-kultur/germanistik-sw-1/roessler/) and having studied in the scope of which German and Italian Philology, Media Informatics and Information Science as major fans. I have received my Master of Arts degree in Information Science, having written [the thesis](https://arxiv.org/pdf/1805.09108.pdf) at the [Institute of Biophysics and Physical Biochemistry](http://www-aglang.uni-regensburg.de/) under the supervision of [Prof. Dr. rer. nat. Elmar Lang](http://www-aglang.uni-regensburg.de/). I worked in the field of Evolutionary Data Management as a research assistant under the supervision of [Prof. Dr.-Ing. Richard Lenz](https://www.cs6.tf.fau.de/person/richard-lenz/). Currently, I pursue my Bachelor of Science degree in Mathematics at the [Friedrich-Alexander University Erlangen Nürnberg](https://math.fau.de).
 
-### [:arrow_down: Download my CV.](https://karhunenloeve.github.io/CurriculumVitae/curriculumvitae.pdf)
+### [:arrow_down: Download my CV.](https://karhunenloeve.github.io/CurriculumVitae/curriculumVitae.pdf)
 
 # Publications
 1. Luciano Melodia and Richard Lenz: [Homological Time Series Analysis of Sensor Signals from Power Plants](https://arxiv.org/abs/2106.02493). Machine Learning for Irregular Time Series. Machine Learning and Principles and Practice of Knowledge Discovery in Databases. In Michael Kamp, Irena Koprinska, Adrien Bibal et al. (ed.): Communications in Computer and Information Science. Springer Nature, Switzerland.

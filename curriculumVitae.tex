@@ -1,49 +1,27 @@
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper, 12pt]{article}
 
 \usepackage[british]{babel}
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
+\usepackage{amsmath}
 \usepackage{fontawesome}
 \usepackage{geometry}
 \usepackage{marginnote}
-\usepackage{scrextend}
 \usepackage{sectsty}
-\usepackage[usenames,dvipsnames]{color}
 \usepackage{academicons}
 \usepackage{hanging}
 \usepackage{enumitem}
 \usepackage{etaremune}
-\usepackage{tikz}
+\usepackage{hyperref}
 \usepackage{classicthesis}
-\usepackage[export]{adjustbox}
-\geometry{
-  a4paper,
-  textwidth      = 14.0cm,
-  textheight     = 25.0cm,
-  marginparwidth =  2.5cm
-}
-\defaultfontfeatures{Ligatures=TeX}
+\geometry{a4paper, textwidth=12.5cm, textheight=25.0cm, marginparwidth=2.5cm}
 \setlength{\parindent}{0pt}
 \setlength{\marginparsep}{10pt}
-
-\setlength{\parindent}{0pt}
 \setlength{\skip\footins}{0.5cm}
 
-\definecolor{amber}{rgb}{1.0, 0.75, 0.0}
-\definecolor{bittersweet}{rgb}{1.0, 0.44, 0.37}
-\definecolor{darkcyan}{rgb}{0.0, 0.55, 0.55}
-\definecolor{darkmagenta}{rgb}{0.55, 0.0, 0.55}
-\definecolor{denim}{rgb}{0.08, 0.38, 0.74}
-
 \setlist[enumerate]{nosep}
-\NewDocumentCommand{\statcirc}{ O{#2} m }{%
-    \begin{tikzpicture}[every node/.style={inner sep=0,outer sep=-1}]
-    \fill[#2] (0,0) circle (0.55ex);
-    \fill[#1] (0,0) -- (180:0.55ex) arc (180:0:0.55ex) -- cycle;
-    \end{tikzpicture}
-}
-\newcommand  {\rd}{\textsuperscript{\textup{rd}}\xspace}
-\newcommand  {\nd}{\textsuperscript{\textup{nd}}\xspace}
+\newcommand{\rd}{\textsuperscript{\textup{rd}}\xspace}
+\newcommand{\nd}{\textsuperscript{\textup{nd}}\xspace}
 \renewcommand{\th}{\textsuperscript{\textup{th}}\xspace}
 \newcommand{\authorequal}{\kern-0.1em\textsuperscript{\dagger}}
 \renewcommand*{\raggedleftmarginnote}{}
@@ -52,267 +30,242 @@
 
 \allsectionsfont{\mdseries\bfseries}
 \setlist[itemize]{noitemsep, topsep=0pt}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% PDF setup
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Penalties
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\clubpenalty         = 10000
-\displaywidowpenalty = 10000
-\widowpenalty        = 10000
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Main document
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-{
-    {
-        \Huge \textbf{Luciano Melodia}}\\[0.1cm]
-    \emph{Curriculum vitae}\\
-    \emph{Last update on \today}.
-    
-    \begin{flushleft}
-        \scriptsize
-        \begin{minipage}{0.3\textwidth}
-            {\footnotesize \faEnvelope} \hspace{0.1cm} \href{mailto:melodia.luciano@proton.me}{melodia.luciano@proton.me}\\[0.05cm]
-            {\footnotesize \faGithub} \hspace{0.15cm} \href{https://github.com/karhunenloeve}{karhunenloeve}\\[0.05cm]
-            {\footnotesize \aiarXiv} \hspace{0.1cm} \href{https://arxiv.org/a/melodia_l_1}{melodia\_l\_1}\\[0.05cm]
-            {\footnotesize \aiOrcid} \hspace{0.1cm} \href{https://orcid.org/0000-0002-7584-7287}{0000-0002-7584-7287}
-        \end{minipage}
-        \begin{minipage}{0.4\textwidth}
-            {\footnotesize \faPhone} \hspace{0.20cm} +49 175 3372526 \\[0.05cm]
-            {\footnotesize \faMapPin} \hspace{0.30cm} Memelstraße 43, 91058 Erlangen\\[0.05cm]
-            {\footnotesize \faMars} \hspace{0.2cm} Born on 27.03.1994\\[0.05cm]
-            {\footnotesize \faMapO} \hspace{0.1cm} Regensburg, Germany
-        \end{minipage}
-    \end{flushleft}
-}
+	{\Huge \textbf{Luciano Melodia}}\\[0.1cm]
+	\emph{Curriculum vitae}\\ 
+	\emph{Last update on \today}.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Professions}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\years{2024--25} Private tutor in german and maths.
-\begin{itemize}
-    \item Abitur preparation for 9 students from the Bavarian Gymnasium in maths.
-    \item Secondary school (10th grade) preparation for 2 students in german and maths. 
-\end{itemize}
-\years{2023--24} Tutor Algebra and Geometry, \\
-	      Tutor Representation Theory and Operator Algebras, FAU\footnote{Friedrich-Alexander University Erlangen-Nürnberg.}.
-\begin{itemize}
-    \item Planning and implementation of the exercise lesson in \glqq Topology and Applications\grqq.
-    \item Planning and implementation of the exercise lesson in \glqq Topology\grqq.
-    \item Planning and implementation of the exercise lesson in \glqq Linear algebra I\grqq.
-    \item Planning and conducting intensive proof lessons.
-    \item Examination supervision and correction.
-\end{itemize}
-\years{2021--22} Working student Corscience GmbH \& Co. KG, Erlangen.
-\begin{itemize}
-    \item Automatic detection of calibration spikes and time stamps in ECG data.
-    \item Detection of multiple ECG curves on documents.
-    \item Image segmentation using machine learning.
-\end{itemize}
-\years{2019--21} Researcher Siemens Energy AG, Erlangen.
-\begin{itemize}
-    \item Programming with CUDA v.11.0, Tensorflow 2.4, CuDNN v.8.0.4.
-    \item Programming in Python v.3.8 and v.3.9.
-    \item Work with Ubuntu 20.04, Solus 4, Archlinux 5.11.
-    \item Implementation and use of convolutional nets, LSTM nets, residual nets, autoencoders, topological autoencoders, and Boltzmann machines for processing time series.
-\end{itemize}
-\years{2018--21} Researcher Chair of Computer Science 6, FAU.
-\begin{itemize}
-    \item Correction of written exams and assistance in oral exams.
-    \item Self-directed preparation and execution of e-exams.
-    \item Corrections to module descriptions for the Data Science program.
-\end{itemize}
-\years{2015--18} Data scientist at mb Support GmbH, Regensburg.
-\begin{itemize}
-    \item Implementation of a document pipeline for mass digitization of handwritten documents using neural networks and incorporation into the database application openVIVA.
-    \item Installation of the telecommunication interface ASTERISK in openVIVA.
-    \item Induction of new employees in openVIVA.
-    \item Statistical data and market analysis.
-\end{itemize}
-\years{2013--15} Research assistant Chair of German Linguistics, Regensburg University.
-\begin{itemize}
-    \item Examination correction, correction of books and texts.
-    \item Website maintenance.
-    \item Organization and conduct of conferences.
-    \item Implementation of the punc.space web platform.
-\end{itemize}
-\years{2012--15} Chef in event gastronomy at Apostelkeller, Regensburg.
-\begin{itemize}
-    \item Cooking according to fixed menu for up to 140 guests.
-    \item Waitressing and stock management.
-\end{itemize}
-\years{2012--15} Staff-based services Trademarketing Service GmbH, Salzgitter. 
-\begin{itemize}
-    \item Goods management and ordering.
-    \item Goods admission.
-\end{itemize}
-\years{2012--14} Translator at Anatol GmbH \& Co. KG, Regensburg.
-\begin{itemize}
-    \item Italian -- German translation.
-    \item Polish -- German translation.
-    \item English -- German translation.
-\end{itemize}
-\years{2010} Compassion project, Alten- und Pflegeheim St. Josef, Regensburg.
+	\begin{flushleft}
+		\scriptsize
+		\begin{minipage}{0.3\textwidth}
+			{\footnotesize \faEnvelope} \hspace{0.1cm} \href{mailto:melodia.luciano@proton.me}{melodia.luciano@proton.me}\\[0.05cm]
+			{\footnotesize \faGithub} \hspace{0.15cm} \href{https://github.com/karhunenloeve}{karhunenloeve}\\[0.05cm]
+			{\footnotesize \aiarXiv} \hspace{0.1cm} \href{https://arxiv.org/a/melodia_l_1}{melodia\_l\_1}\\[0.05cm]
+			{\footnotesize \aiOrcid} \hspace{0.1cm} \href{https://orcid.org/0000-0002-7584-7287}{0000-0002-7584-7287}
+		\end{minipage}
+		\begin{minipage}{0.4\textwidth}
+			{\footnotesize \faPhone} \hspace{0.20cm} +49 175 3372526 \\[0.05cm]
+			{\footnotesize \faMapPin} \hspace{0.30cm} Memelstraße 43, 91058 Erlangen\\[0.05cm]
+			{\footnotesize \faMars} \hspace{0.2cm} Born on 27.03.1994\\[0.05cm]
+			{\footnotesize \faMapO} \hspace{0.1cm} Regensburg, Germany
+		\end{minipage}
+	\end{flushleft}
 
-\newpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Academic Work}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\years{Teaching}
-\vspace{-2pt}
-\begin{itemize}[noitemsep, leftmargin=*]
-    \item Department of Mathematics, Friedrich-Alexander Universität Erlangen-Nürnberg
-          \begin{itemize}
-            \item 2024 Exercises in Topology and Applications
-            \item 2024 Exercises in Linear Algebra I
-            \item 2023 Exercises in Topology
-          \end{itemize}
-    \item Department of Computer Science, Friedrich-Alexander Universität Erlangen-Nürnberg
-          \begin{itemize}
-            \item 2021 Lecture Knowledge Disovery in Databases
-            \item 2020 Seminar Persistent Homology in Data AnalyticsSeminar 
-            \item 2020 Seminar Topological Data Analysis
-            \item 2019-21 Exercises Process Oriented Information Systems
-            \item 2018-21 Seminar New Technologies in Data Management
-            \item 2018-21 Exercises Computer Science for Engineers
-            \item 2018 Exercises Conceptional Modeling
-          \end{itemize}
-\end{itemize}
-\vspace{10pt}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section*{Professional Experience}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\years{2024--25} Private tutor in German and Mathematics.
+	\begin{itemize}
+		\item Abitur preparation for 9 students from Bavarian Gymnasium in Mathematics.
+		\item Secondary school (10th grade) preparation for 2 students in German and Mathematics.
+	\end{itemize}
+	\years{2023--24} Tutor for Algebra and Geometry, \\ Tutor for Representation Theory and Operator Algebras, FAU\footnote{Friedrich-Alexander University Erlangen-Nürnberg.}.
+	\begin{itemize}
+		\item Planning and implementation of exercise lessons in \glqq Topology and Applications\grqq.
+		\item Planning and implementation of exercise lessons in \glqq Topology\grqq.
+		\item Planning and implementation of exercise lessons in \glqq Linear Algebra\grqq.
+		\item Conducting intensive proof lessons.
+		\item Examination supervision and correction.
+	\end{itemize}
+	\years{2021--22} Working student at Corscience GmbH \& Co. KG, Erlangen.
+	\begin{itemize}
+		\item Automatic detection of calibration spikes and time stamps in ECG data.
+		\item Detection of multiple ECG curves on documents.
+		\item Image segmentation using machine learning.
+	\end{itemize}
+	\years{2019--21} Researcher at Siemens Energy AG, Erlangen.
+	\begin{itemize}
+		\item Programming with CUDA v.11.0, Tensorflow 2.4, CuDNN v.8.0.4.
+		\item Programming in Python v.3.8 and v.3.9.
+		\item Work with Ubuntu 20.04, Solus 4, Archlinux 5.11.
+		\item Implementation and use of convolutional nets, LSTM nets, residual nets, autoencoders, topological autoencoders, and Boltzmann machines for processing time series.
+	\end{itemize}
+	\years{2018--21} Researcher Chair of Computer Science 6, FAU.
+	\begin{itemize}
+		\item Correction of written exams and assistance in oral exams.
+		\item Self-directed preparation and execution of e-exams.
+		\item Corrections to module descriptions for the Data Science program.
+	\end{itemize}
+	\years{2015--18} Data scientist at mb Support GmbH, Regensburg.
+	\begin{itemize}
+		\item Implementation of a document pipeline for mass digitization of handwritten documents using neural networks and incorporation into the database application openVIVA.
+		\item Installation of the telecommunication interface ASTERISK in openVIVA.
+		\item Induction of new employees into openVIVA.
+		\item Statistical data and market analysis.
+	\end{itemize}
+	\years{2013--15} Research assistant Chair of German Linguistics, Regensburg University.
+	\begin{itemize}
+		\item Examination correction, correction of books and texts.
+		\item Website maintenance.
+		\item Organization and conduct of conferences.
+		\item Implementation of the punc.space web platform.
+	\end{itemize}
+	\years{2012--15} Chef in event gastronomy at Apostelkeller, Regensburg.
+	\begin{itemize}
+		\item Cooking according to a fixed menu for up to 140 guests.
+		\item Waitressing and stock management.
+	\end{itemize}
+	\years{2012--15} Staff-based services at Trademarketing Service GmbH, Salzgitter.
+	\begin{itemize}
+		\item Goods management and ordering.
+		\item Goods receipt.
+	\end{itemize}
+	\years{2012--14} Translator at Anatol GmbH \& Co. KG, Regensburg.
+	\begin{itemize}
+		\item Italian -- German translation.
+		\item Polish -- German translation.
+		\item English -- German translation.
+	\end{itemize}
+	\years{2010} Volunteer at Alten- und Pflegeheim St. Josef, Regensburg.
 
-\years{Conferences}
-\vspace{-2pt}
-\begin{itemize}[noitemsep, leftmargin=*]
-    \item Learning on Graphs (LOG, 2023, 2022)
-    \item $15^{\text{th}}$ International Conference on Advances in Databases, Knowledge,
-          and Data Applications (DBKDA, 2023)
-    \item International Conference on Learning Representations (ICLR, 2022)
-    \item Machine Learning for Irregular Time Series (ML4ITS, 2021)
-    \item International Conference on Pattern Recognition (ICPR, 2021)
-    \item Topological Data Analysis and Beyond (NeuRIPS, 2020)
-    \item International Conference on Practical Mathematical Discourse (ICPMD, 2020)
-    \item International Workshop on Combinatorial Image Analysis (IWCIA, 2020)
-    \item European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML/PKDD, 2020, 2019)
-    \item Symposium on Principles of Database Systems (SIGMOD/PODS, 2019)
-    \item Kolloquium zum Sprachmanagement (2017)
-    \item Destandardisierung und Standardvarietät (2013)
-\end{itemize}
-\vspace{10pt}
+	\newpage
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section*{Academic Work}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\years{Teaching}
+	\vspace{-2pt}
+	\begin{itemize}[noitemsep, leftmargin=*]
+		\item Department of Mathematics, Friedrich-Alexander Universität Erlangen-Nürnberg
+			\begin{itemize}
+				\item 2024 Exercises in Topology and Applications
+				\item 2024 Exercises in Linear Algebra I
+				\item 2023 Exercises in Topology
+			\end{itemize}
+		\item Department of Computer Science, Friedrich-Alexander Universität Erlangen-Nürnberg
+			\begin{itemize}
+				\item 2021 Lecture on Knowledge Discovery in Databases
+				\item 2020 Seminar on Persistent Homology in Data Analytics
+				\item 2020 Seminar on Topological Data Analysis
+				\item 2019-21 Exercises in Process Oriented Information Systems
+				\item 2018-21 Seminar on New Technologies in Data Management
+				\item 2018-21 Exercises in Computer Science for Engineers
+				\item 2018 Exercises in Conceptual Modeling
+			\end{itemize}
+	\end{itemize}
+	\vspace{10pt}
 
-\years{Service}
-\vspace{-2pt}
-\begin{itemize}[noitemsep, leftmargin=*]
-    \item Reviewer Learning on Graphs (LOG, 2023, 2022)
-    \item Reviewer International Conference on Advances in Databases, Knowledge,
-          and Data Applications (DBKDA, 2023, 2020)
-    \item Reviewer Geometrical and Topological Representation Learning (ICLR, 2022)
-    \item Reviewer Topological Data Analysis and Beyond (NeuRIPS, 2021)
-    \item Member Gesellschaft für Informatik e.V. (2019 -- 20)
-    \item Member Computational Intelligence and Machine Learning Group (2017 -- 18)
-    \item Student Representative Information Science (Regensburg University, 2016)
-\end{itemize}
-\vspace{10pt}
+	\years{Conferences}
+	\vspace{-10pt}
+	\begin{etaremune}[itemsep=-5pt, leftmargin=15pt]
+		\item Learning on Graphs (2023, 2022)
+		\item $15^{\text{th}}$ International Conference on Advances in Databases, Knowledge, and Data Applications (2023)
+		\item International Conference on Learning Representations (2022)
+		\item Machine Learning for Irregular Time Series (2021)
+		\item International Conference on Pattern Recognition (2021)
+		\item Topological Data Analysis and Beyond (2020)
+		\item International Conference on Practical Mathematical Discourse (2020)
+		\item International Workshop on Combinatorial Image Analysis (2020)
+		\item European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (2020, 2019)
+		\item Symposium on Principles of Database Systems (2019)
+		\item Kolloquium zum Sprachmanagement (2017)
+		\item Destandardisierung und Standardvarietät (2013)
+	\end{etaremune}
+	\vspace{10pt}
 
-\years{Supervision} B.Sc. D. Hahn (2021):\\
-\emph{Classification of Sensor Signals from Power Plants.} \\
-M.Sc. C. Sauerhammer (2021): \\
-\emph{A Classification Dashboard for Sensor Signals from Power Plants.} \\
-B.Sc. J. Schäfer (2021): \\
-\emph{Learning Validation Models from Sensors of a Power Plant.} \\
-M.Sc. M. Seidel (2020): \\ 
-\emph{Classification of Microbes using Time Series Gas Sensor Array Data.} \\
-M.Sc. M.R. Siddiqui (2020): \\
-\emph{Extraction of Fetal and Maternal Heartbeats from ECG Signals.}
+	\years{Service}
+	\vspace{-10pt}
+	\begin{etaremune}[itemsep=-5pt, leftmargin=15pt]
+		\item Reviewer for Learning on Graphs (LOG, 2023, 2022)
+		\item Reviewer for the International Conference on Advances in Databases, Knowledge, and Data Applications (2023, 2020)
+		\item Reviewer for the Workshop Geometrical and Topological Representation Learning, International Conference on Learning Representations (2022)
+		\item Reviewer for the Workshop Topological Data Analysis and Beyond, Neural Information Processing Systems (NeurIPS, 2021)
+		\item Member of the Gesellschaft für Informatik e.V. (2019 -- 20)
+		\item Member of the Computational Intelligence and Machine Learning Group, CIML University Regensburg (2017 -- 18)
+		\item Student Representative for the Department of Language, Literature and Cultural Sciences (Regensburg University, 2016)
+	\end{etaremune}
+	\vspace{10pt}
 
-\newpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Papers}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{hangparas}{1em}{1}
-    \years{2024 \href{}{\faFilePdfO}} \textbf{Luciano Melodia}: Algebraic and Topological Persistence. Bachelor thesis. Friedrich-Alexander Universität Erlangen-Nürnberg.
-\end{hangparas}
-%
-\begin{hangparas}{1em}{1}
-    \years{2023 \href{https://karhunenloeve.github.io/TopoHom/main.pdf}{\faFilePdfO}} \textbf{Luciano Melodia}: Notes on Simplicial and Singular Homology. Seminar paper. Friedrich-Alexander Universität Erlangen-Nürnberg.
-\end{hangparas}
-%
-\begin{hangparas}{1em}{1}
-    \years{2021 \href{https://doi.org/10.1007/978-3-030-93736-2_22}{\aiDoi} \href{https://arxiv.org/pdf/2106.02493}{\aiarXiv}} \textbf{Luciano Melodia} and \underline{Richard Lenz}: Homological Time Series Analysis of Sensor Signals from Power Plants. Machine Learning for Irregular Time Series. Machine Learning and Principles and Practice of Knowledge Discovery in Databases. In \underline{Michael Kamp}, \underline{Irena Koprinska}, \underline{Adrien Bibal} et al. (ed.):  Communications in Computer and Information Science. Springer Nature, Switzerland.
-\end{hangparas}
-%
-\begin{hangparas}{1em}{1}
-    \years{2021 \href{https://link.springer.com/10.1007/978-3-030-68821-9_2}{\aiDoi} \href{https://arxiv.org/pdf/2004.02881}{\aiarXiv}} \textbf{Luciano Melodia} and \underline{Richard Lenz}: Estimate of the Neural Network Dimension Using Algebraic Topology and Lie Theory. Image Mining. Theory and Applications VII. Pattern Recognition and Information Forensics. In \underline{Alberto Del Bimbo}, \underline{Rita Cucchiara}, \underline{Stan Sciaroff} et al. (ed.): Lecture Notes in Computer Science. Springer Nature, Switzerland.
-\end{hangparas}
-%
-\begin{hangparas}{1em}{1}
-    \years{2020 \href{https://link.springer.com/chapter/10.1007\%2F978-3-030-51002-2_3}{\aiDoi} \href{https://arxiv.org/pdf/1911.02922}{\aiarXiv}} \textbf{Luciano Melodia} and \underline{Richard Lenz}: Persistent Homology as Stopping-Criterion for Voronoi Interpolation. Proceedings of the International Workshop on Combinatorial Image Analysis. In \underline{Tibor Lukić}, \underline{Reneta Barneva}, \underline{Valentin Brimkov} et al. (ed.): Lecture Notes in Computer Science. Springer, Cham.
-\end{hangparas}
-%
-\begin{hangparas}{1em}{1}
-    \years{2018 \href{https://osf.io/zp6nv/}{\aiDoi} \href{https://arxiv.org/pdf/1805.09108}{\aiarXiv}} \textbf{Luciano Melodia}: Deep Learning Schätzung zur absorbierten Strahlungsdosis für die nuklearmedizinische Diagnostik. Library of the \underline{University of Regensburg}, \underline{Master Thesis} in Information Science.
-\end{hangparas}
-%
-\begin{hangparas}{1em}{1}
-    \years{2015 \href{https://www.logos-verlag.de/cgi-bin/engbuchmid?isbn=3808&lng=deu}{\aiDoi} \href{https://ling.auf.net/lingbuzz/004798}{\faFilePdfO}} \textbf{Luciano Melodia}: Zur Verwendung des Paradigmas brauchen mit und ohne zu mit Infinitiv. In \underline{Kate\v{s}ina \v{S}ichov\`{a}}, \underline{Reinhard Krapp}, \underline{Rössler Paul} et al. (ed.): Standardvarietät des Deutschen -- Fallbeispiele aus der sozialen Praxis, Logos, Berlin.
-\end{hangparas}
-%
-\vspace{0.5cm}
+	\years{Supervision}
+	\vspace{-10pt}
+	\begin{etaremune}[itemsep=-5pt, leftmargin=15pt]
+		\item B.Sc. Hahn (2021): Classification of Sensor Signals from Power Plants.
+		\item M.Sc. Sauerhammer (2021): A Classification Dashboard for Sensor Signals from Power Plants.
+		\item B.Sc. Schäfer (2021): Learning Validation Models from Sensors of a Power Plant.
+		\item M.Sc. Seidel (2020): Classification of Microbes using Time Series Gas Sensor Array Data.
+		\item M.Sc. Siddiqui (2020): Extraction of Fetal and Maternal Heartbeats from ECG Signals.
+	\end{etaremune}
 
-\newpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Education}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\years{2024 -- 26, M.Sc.} Mathematics, Friedrich-Alexander University Erlangen-Nürnberg.\\
-Minor: digital humanities, Friedrich-Alexander University Erlangen-Nürnberg. \\
-\years{2021 -- 24, B.Sc.} Mathematics, Friedrich-Alexander University Erlangen-Nürnberg.\\
-	        Topic: Algebraic and topological persistence. \\
-	        Minor: computer science. \\
-\years{2015 -- 18, M.A.} Information Science, Regensburg University. \\
-	        Topic: Deep learning for radiation dose calculation.\\
-\years{2012 -- 15, B.A.} German Philology, Regensburg University\\
-	        Topic: Information retrieval and punctuation.\\
-	        Majors: italian philology, information science, media informatics. \\
-\years{2012 -- 13} Web Developer, Rechenzentrum Regensburg University. \\
-\years{2012}       Abitur, Albertus-Magnus-Gymnasium, Regensburg.
+	\newpage
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section*{Papers}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{hangparas}
+		{1em}{1} \years{2024 \href{}{\faFilePdfO}} \textbf{Luciano Melodia}: Algebraic and Topological Persistence. Bachelor thesis. Friedrich-Alexander Universität Erlangen-Nürnberg.
+	\end{hangparas}
+	%
+	\begin{hangparas}
+		{1em}{1} \years{2023 \href{https://karhunenloeve.github.io/TopoHom/main.pdf}{\faFilePdfO}} \textbf{Luciano Melodia}: Notes on Simplicial and Singular Homology. Seminar paper. Friedrich-Alexander Universität Erlangen-Nürnberg.
+	\end{hangparas}
+	%
+	\begin{hangparas}
+		{1em}{1} \years{2021 \href{https://doi.org/10.1007/978-3-030-93736-2_22}{\aiDoi} \href{https://arxiv.org/pdf/2106.02493}{\aiarXiv}} \textbf{Luciano Melodia} and \underline{Richard Lenz}: Homological Time Series Analysis of Sensor Signals from Power Plants. Machine Learning for Irregular Time Series. Machine Learning and Principles and Practice of Knowledge Discovery in Databases. In \underline{Michael Kamp}, \underline{Irena Koprinska}, \underline{Adrien Bibal} et al. (ed.): Communications in Computer and Information Science. Springer Nature, Switzerland.
+	\end{hangparas}
+	%
+	\begin{hangparas}
+		{1em}{1} \years{2021 \href{https://link.springer.com/10.1007/978-3-030-68821-9_2}{\aiDoi} \href{https://arxiv.org/pdf/2004.02881}{\aiarXiv}} \textbf{Luciano Melodia} and \underline{Richard Lenz}: Estimate of the Neural Network Dimension Using Algebraic Topology and Lie Theory. Image Mining. Theory and Applications VII. Pattern Recognition and Information Forensics. In \underline{Alberto Del Bimbo}, \underline{Rita Cucchiara}, \underline{Stan Sciaroff} et al. (ed.): Lecture Notes in Computer Science. Springer Nature, Switzerland.
+	\end{hangparas}
+	%
+	\begin{hangparas}
+		{1em}{1} \years{2020 \href{https://link.springer.com/chapter/10.1007\%2F978-3-030-51002-2_3}{\aiDoi} \href{https://arxiv.org/pdf/1911.02922}{\aiarXiv}} \textbf{Luciano Melodia} and \underline{Richard Lenz}: Persistent Homology as a Stopping Criterion for Voronoi Interpolation. Proceedings of the International Workshop on Combinatorial Image Analysis. In \underline{Tibor Lukić}, \underline{Reneta Barneva}, \underline{Valentin Brimkov} et al. (ed.): Lecture Notes in Computer Science. Springer, Cham.
+	\end{hangparas}
+	%
+	\begin{hangparas}
+		{1em}{1} \years{2018 \href{https://osf.io/zp6nv/}{\aiDoi} \href{https://arxiv.org/pdf/1805.09108}{\aiarXiv}} \textbf{Luciano Melodia}: Deep Learning Estimation of Absorbed Radiation Dose for Nuclear Medicine Diagnostics. Library of the \underline{University of Regensburg}, \underline{Master Thesis} in Information Science.
+	\end{hangparas}
+	%
+	\begin{hangparas}
+		{1em}{1} \years{2015 \href{https://www.logos-verlag.de/cgi-bin/engbuchmid?isbn=3808&lng=deu}{\aiDoi} \href{https://ling.auf.net/lingbuzz/004798}{\faFilePdfO}} \textbf{Luciano Melodia}: On the Use of the Paradigm \emph{brauchen} with and without \emph{zu} with Infinitives. In \underline{Kateřina Šichová}, \underline{Reinhard Krapp}, \underline{Paul Rössler} et al. (ed.): Standard Varieties of German -- Case Studies from Social Practice, Logos, Berlin.
+	\end{hangparas}
+	%
+	\vspace{0.5cm}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Interests}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\years{Coding} Python, JavaScript.\\
-\years{Software} GUDHI, Dionysus, Keras.\\
-\years{Languages} German (native), English C2, Italian C2, Polish B2.\\
-\years{Hobbies} Cooking, Reading.\\
-\years{Sports} Boxing.
+	\newpage
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section*{Education}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\years{2024 -- 26, M.Sc.} Mathematics, Friedrich-Alexander University Erlangen-Nürnberg.\\
+	Minor: Digital Humanities. \\
+	\years{2021 -- 24, B.Sc.} Mathematics, Friedrich-Alexander University Erlangen-Nürnberg.\\
+	Topic: Algebraic and Topological Persistence. \\ Minor: Computer Science. \\ 
+	\years{2015 -- 18, M.A.} Information Science, Regensburg University. \\ 
+	Topic: Deep Learning for Radiation Dose Calculation.\\ 
+	\years{2012 -- 15, B.A.} German Philology, Regensburg University\\
+	Topic: Information Retrieval and Punctuation.\\ 
+	Majors: Italian Philology, Information Science, Media Informatics. \\ 
+	\years{2012 -- 13} Web Developer, Rechenzentrum Regensburg University. \\ 
+	\years{2012} Abitur, Albertus-Magnus-Gymnasium, Regensburg.
 
-\newpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Reference}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\years{Prof. Ph.D.}  Kang Li\\
-	Department Mathematics\\
-	Friedrich-Alexander University Erlangen-Nürnberg\\
-	Professor for Representation Theory and Operator Algebras\\
-\years{\hspace{2cm}\faEnvelope} \url{kang.li@fau.de}\\
-\years{\hspace{2cm}\faPhone} +49 9131 85-67060\\
-\years{Prof. Dr.-Ing.}  Richard Lenz\\
-		  Department Computer Science\\
-		  Friedrich-Alexander University Erlangen-Nürnberg\\
-		  Professor for Evolutionary Data Management\\
-\years{\hspace{2cm}\faEnvelope} \url{richard.lenz@fau.de}\\
-\years{\hspace{2cm}\faPhone} +49 9131 85-27899\\
-\years{Prof. Dr. rer. nat.} Elmar Lang\\
-		  Department Biophysics\\
-		  Professor for Computational Intelligence\\
-\years{\hspace{2cm}\faEnvelope} \url{elmar.w.lang@ur.de}\\
-\years{Prof. Dr. phil.} Paul Rössler\\
-		  Department German Philology\\
-		  Professor for German Linguistics\\
-\years{\hspace{2cm}\faEnvelope} \url{paul.roessler@ur.de}\\
-\years{\hspace{2cm}\faPhone} +49 941 943-3444\\
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section*{Interests}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\years{Coding} Python, JavaScript.\\ 
+	\years{Software} GUDHI, Dionysus, Keras.\\
+	\years{Languages} German (native), English (C2), Italian (C2), Polish (B2).\\ 
+	\years{Hobbies} Cooking, Reading.\\ 
+	\years{Sports} Boxing.
+
+	\newpage
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section*{References}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\years{Prof. Ph.D.} Kang Li\\ Department of Mathematics\\ Friedrich-Alexander University Erlangen-Nürnberg\\ Professor for Representation Theory and Operator Algebras\\ 
+	\years{\hspace{2cm}\faEnvelope} \url{kang.li@fau.de}\\ 
+	\years{\hspace{2cm}\faPhone} +49 9131 85-67060\\ 
+	
+	\years{Prof. Dr.-Ing.} Richard Lenz\\ Department of Computer Science\\ Friedrich-Alexander University Erlangen-Nürnberg\\ Professor for Evolutionary Data Management\\ 
+	\years{\hspace{2cm}\faEnvelope} \url{richard.lenz@fau.de}\\ 
+	\years{\hspace{2cm}\faPhone} +49 9131 85-27899\\ 
+	
+	\years{Prof. Dr. rer. nat.} Elmar Lang\\ Department of Biophysics\\ Professor for Computational Intelligence\\ 
+	\years{\hspace{2cm}\faEnvelope} \url{elmar.w.lang@ur.de}\\ 
+	
+	\years{Prof. Dr. phil.} Paul Rössler\\ Department of German Philology\\ Professor for German Linguistics\\ 
+	\years{\hspace{2cm}\faEnvelope} \url{paul.roessler@ur.de}\\ 
+	\years{\hspace{2cm}\faPhone} +49 941 943-3444\\
 \end{document}
+

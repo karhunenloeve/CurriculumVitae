@@ -26,3 +26,4 @@
 *.synctex.gz
 *.fdb_latexmk
 *.PowerFolder
+*.DS_Store

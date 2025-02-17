@@ -4,6 +4,8 @@ I hold a Bachelor of Arts degree in German Philology from the [Regensburg Univer
 ### [:arrow_down: Download my CV.](https://karhunenloeve.github.io/CurriculumVitae/curriculumVitae.pdf)
 
 # Publications & Preprints
+1. Luciano Melodia (2025): [Spectral Sequences - Leray-Serre Spectral Sequence](https://karhunenloeve.github.io/SpecSeq/main.pdf). Graduate Seminar on Spectral Theory in Mathematical Physics, Friedrich-Alexander Universität Erlangen-Nürnberg.
+1. Luciano Melodia (2024): [Beschränkte Fremdholmoperatoren und deren Fremdholmindex auf separablen Hilberträumen](https://karhunenloeve.github.io/FunkanaFredholm/main.pdf). Graduate Seminar on Spectral Flow in Functional Analysis, Friedrich-Alexander Universität Erlangen-Nürnberg.
 1. Luciano Melodia (2024): [Algebraic and Topological Persistence](https://karhunenloeve.github.io/BscMath/main.pdf). Bachelor Thesis, Friedrich-Alexander Universität Erlangen-Nürnberg.
 1. Luciano Melodia (2023): [Notes on Simplicial and Singular Homology](https://karhunenloeve.github.io/TopoHom/main.pdf). Seminar Topics in Topology, Friedrich-Alexander Universität Erlangen-Nürnberg.
 1. Luciano Melodia (2022): [Natürliche Transformationen, Äquivalenzen von Kategorien, darstellbare Funktoren und das Lemma von Yoneda](https://karhunenloeve.github.io/TopoSheaf/main.pdf). Seminar Topics in Topology, Friedrich-Alexander Universität Erlangen-Nürnberg.

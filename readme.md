@@ -15,7 +15,7 @@ Welcome to my GitHub profile! Here you'll find my academic background, research 
 ## 📚 Academic Background
 
 I hold degrees in multiple fields:
-- **M.Sc. Mathematics** (Ongoing) – [FAU Erlangen-Nürnberg](https://math.fau.de)
+- **M.Sc. Mathematics** (Thesis:) – [FAU Erlangen-Nürnberg](https://math.fau.de)
 - **B.Sc. Mathematics** – [FAU Erlangen-Nürnberg](https://www.fau.de) (Thesis: [Algebraic and Topological Persistence](https://arxiv.org/pdf/2410.08323), Prof. Dr. Kang Li)
 - **M.A. Information Science** – [Universität Regensburg](https://www.uni-regensburg.de/) (Thesis: [Deep Learning for Nuclear Medicine](https://arxiv.org/pdf/1805.09108.pdf), Prof. Dr. Elmar Lang)
 - **B.A. German Philology** – [Universität Regensburg](https://www.uni-regensburg.de/) (Thesis: Punctuation and Information Retrieval, Prof. Dr. Paul Rössler)
@@ -33,8 +33,6 @@ Additionally, I worked as a research assistant in Evolutionary Data Management u
 
 ## 📄 Research Papers
 
-1. **Algebraic and Topological Persistence** ([arXiv](https://arxiv.org/abs/2410.08323))  
-   _Library of Friedrich-Alexander Universität Erlangen-Nürnberg, Public Library_
 1. **Homological Time Series Analysis of Sensor Signals from Power Plants** ([arXiv](https://arxiv.org/abs/2106.02493))  
    _Machine Learning for Irregular Time Series, Springer, Switzerland_
 2. **Estimate of Neural Network Dimension Using Algebraic Topology & Lie Theory** ([arXiv](https://arxiv.org/abs/2004.02881))  
@@ -48,7 +46,7 @@ Additionally, I worked as a research assistant in Evolutionary Data Management u
 
 ---
 
-## 📜 Preprints
+## 📜 Notes
 
 1. **Spectral Sequences – Leray-Serre Spectral Sequence** ([PDF](https://karhunenloeve.github.io/SpecSeq/main.pdf))  
    _Graduate Seminar on Spectral Theory in Mathematical Physics, FAU Erlangen-Nürnberg_

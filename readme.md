@@ -1,4 +1,4 @@
-# Hello World!
+# 🎓 Hello World!
 Welcome to my GitHub profile! Here you'll find my academic background, research contributions, and preprints.
 
 ![GitHub Profile Views](https://komarev.com/ghpvc/?username=karhunenloeve&color=blue&style=flat-square) ![ORCID](https://img.shields.io/badge/ORCID-0000--0002--7584--7287-green?style=flat-square&logo=orcid) ![ArXiv](https://img.shields.io/badge/arXiv-Research-red?style=flat-square&logo=arxiv)
@@ -14,7 +14,7 @@ Welcome to my GitHub profile! Here you'll find my academic background, research 
 ## 📚 Academic Background
 
 I hold degrees in multiple fields:
-- **M.Sc. Mathematics** (Thesis:) – [FAU Erlangen-Nürnberg](https://math.fau.de)
+- **M.Sc. Mathematics** – [FAU Erlangen-Nürnberg](https://math.fau.de) (Thesis: Groupoid Homology, Prof. Dr. Kang Li)
 - **B.Sc. Mathematics** – [FAU Erlangen-Nürnberg](https://www.fau.de) (Thesis: [Algebraic and Topological Persistence](https://arxiv.org/pdf/2410.08323), Prof. Dr. Kang Li)
 - **M.A. Information Science** – [Universität Regensburg](https://www.uni-regensburg.de/) (Thesis: [Deep Learning for Nuclear Medicine](https://arxiv.org/pdf/1805.09108.pdf), Prof. Dr. Elmar Lang)
 - **B.A. German Philology** – [Universität Regensburg](https://www.uni-regensburg.de/) (Thesis: Punctuation and Information Retrieval, Prof. Dr. Paul Rössler)
@@ -27,6 +27,19 @@ Additionally, I worked as a research assistant in Evolutionary Data Management u
 
 - **ORCID**: [0000-0002-7584-7287](https://orcid.org/0000-0002-7584-7287)
 - **arXiv**: [Research Publications](https://arxiv.org/a/melodia_l_1.html)
+
+---
+
+## 🎓 Theses
+
+1. **Universal Coefficients for Ètale Groupoid Homology** ([arXiv]())  
+   _M.Sc. Mathematics, FAU Erlangen-Nürnberg, Supervisor: Prof. Dr. Kang Li_
+2. **Algebraic and Topological Persistence** ([arXiv](https://arxiv.org/abs/2410.08323))  
+   _B.Sc. Mathematics, FAU Erlangen-Nürnberg, Supervisor: Prof. Dr. Kang Li_
+3. **Deep Learning Schätzung zur absorbierten Strahlungsdosis für die Nuklearmedizin** ([arXiv](https://arxiv.org/abs/1805.09108))  
+   _M.A. Information Science, Universität Regensburg, Supervisor: Prof. Dr. Elmar Lang_
+4. **Interpunktionsplattform mit linguistischen Moduln für Information Retrieval**  
+   _B.A. German Linguistics, Universität Regensburg, Supervisor: Prof. Dr. Paul Rössler_
 
 ---
 
@@ -47,6 +60,10 @@ Additionally, I worked as a research assistant in Evolutionary Data Management u
 
 ## 📜 Notes
 
+1. **Kettenhomotopien** ([PDF](https://karhunenloeve.github.io/Mathematical-Notes-2/chainhomotopies.pdf))  
+   _Graduate Seminar on Homological Algebra in Representation Theory, FAU Erlangen-Nürnberg_
+1. **Hochschild(ko)homologie** ([PDF](https://karhunenloeve.github.io/Mathematical-Notes-2/Hochschild__Ko_homologie.pdf))  
+   _Graduate Seminar on Homological Algebra in Representation Theory, FAU Erlangen-Nürnberg_
 1. **Spectral Sequences – Leray-Serre Spectral Sequence** ([PDF](https://karhunenloeve.github.io/SpecSeq/main.pdf))  
    _Graduate Seminar on Spectral Theory in Mathematical Physics, FAU Erlangen-Nürnberg_
 2. **Beschränkte Fredholmoperatoren und deren Index auf separablen Hilberträumen** ([PDF](https://karhunenloeve.github.io/FunkanaFredholm/main.pdf))  
@@ -55,17 +72,6 @@ Additionally, I worked as a research assistant in Evolutionary Data Management u
    _Graduate Seminar on Topics in Topology, FAU Erlangen-Nürnberg_
 4. **Natürliche Transformationen, Äquivalenzen von Kategorien, das Lemma von Yoneda** ([PDF](https://karhunenloeve.github.io/TopoSheaf/main.pdf))  
    _Graduate Seminar on Sheaf Theory, FAU Erlangen-Nürnberg_
-
----
-
-## 🎓 Theses
-
-1. **Algebraic and Topological Persistence** ([arXiv](https://arxiv.org/abs/2410.08323))  
-   _B.Sc. Mathematics, FAU Erlangen-Nürnberg, Supervisor: Prof. Dr. Kang Li_
-2. **Deep Learning Schätzung zur absorbierten Strahlungsdosis für die Nuklearmedizin** ([arXiv](https://arxiv.org/abs/1805.09108))  
-   _M.A. Information Science, Universität Regensburg, Supervisor: Prof. Dr. Elmar Lang_
-3. **Interpunktionsplattform mit linguistischen Moduln für Information Retrieval**  
-   _B.A. German Linguistics, Universität Regensburg, Supervisor: Prof. Dr. Paul Rössler_
 
 ---
 

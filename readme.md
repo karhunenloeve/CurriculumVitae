@@ -14,7 +14,7 @@ Welcome to my GitHub profile! Here you'll find my academic background, research 
 ## 📚 Academic Background
 
 I hold degrees in multiple fields:
-- **M.Sc. Mathematics** – Thesis: Universal Coefficients of Étale Groupoid Homology, Prof. Dr. Kang Li
+- **M.Sc. Mathematics** – Thesis: Universal Coefficients for Étale Groupoid Homology, Prof. Dr. Kang Li
 - **B.Sc. Mathematics** – Thesis: [Algebraic and Topological Persistence](https://arxiv.org/pdf/2410.08323), Prof. Dr. Kang Li
 - **M.A. Information Science** – Thesis: [Deep Learning for Nuclear Medicine](https://arxiv.org/pdf/1805.09108.pdf), Prof. Dr. Elmar Lang
 - **B.A. German Philology** – Thesis: Punctuation and Information Retrieval, Prof. Dr. Paul Rössler

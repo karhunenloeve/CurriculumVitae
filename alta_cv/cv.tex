@@ -1,0 +1,137 @@
+\documentclass[10pt,a4paper,withhyper]{altacv}
+
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+\usepackage{paracol}
+\usepackage{amsmath,amsfonts,amssymb}
+
+\iftutex
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  \usepackage{sourcesanspro}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelRed}{HTML}{450808}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{GoldenEarth}{HTML}{E7D192}
+\colorlet{name}{black}
+\colorlet{tagline}{PastelRed}
+\colorlet{heading}{DarkPastelRed}
+\colorlet{headingrule}{GoldenEarth}
+\colorlet{subheading}{PastelRed}
+\colorlet{accent}{PastelRed}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+\renewcommand{\cvDateMarker}{\faCalendar*[regular]}
+\renewcommand{\cvLocationMarker}{\faMapMarker*}
+
+\begin{document}
+\name{Luciano Melodia}
+\tagline{Mathematician \& Information Scientist}
+\photoR{2.8cm}{me}
+
+\personalinfo{
+  \email{melodia.luciano@proton.me}
+  \phone{+49 175 3372526}
+  \mailaddress{Heckenweg 23, 91056 Erlangen}
+  \location{Bavaria, Germany}
+  \github{karhunenloeve}
+  \orcid{0000-0002-7584-7287}
+}
+
+\makecvheader
+\AtBeginEnvironment{itemize}{\small}
+\columnratio{0.6}
+
+\begin{paracol}{2}
+\cvsection{Experience}
+\cvevent{Tutor}{Friedrich-Alexander Universität}{April 2023 -- ongoing}{Erlangen}
+\begin{itemize}
+    \item Topology (2023, 2026), Analysis 3 (2024, 2026), Mathematics for Engineers A4 – stochastic (2025), Analysis 2 (2025), Topology and Applications (2024), Linear Algebra 1 (2024).
+    \end{itemize}
+    
+\divider
+
+\cvevent{Working Student: Data Science}{Corscience GmbH \& Co. KG}{Aug 2021 -- Aug 2022}{Erlangen}
+\begin{itemize}[noitemsep]
+    \item Deep CNNs on multi-GPUs for ECG spike detection; >99\% accuracy on ~1M samples, 10-fold CV, 5$\sigma$; Matrix-factorization segmentation of ECG curves; ~99\% IOU, 6$\sigma$.
+    \item Residual networks for ECG curve detection; ~98\% IOU on ~10M augmented samples, 10-fold CV, 3$\sigma$.
+\end{itemize}
+
+\divider
+
+\cvevent{Staff Applied Research Scientist}{Siemens Energy AG}{Sept 2018 -- Dez 2021}{Erlangen}
+\begin{itemize}[noitemsep]
+\item A novel interpolation technique using power plant signal topology was developed for data augmentation in large-scale ML, validated on handwriting and four plants, and published at IWCIA. \href{https://github.com/karhunenloeve/SIML}{SIML \faGithub}
+\item A novel technique to estimate parameters in hidden-layer neural networks for signal data, validated on toy datasets and four power plants, presented at ICPR, enabling ~25,000€ annual savings and near-perfect accuracy. \href{https://github.com/karhunenloeve/NTOPL}{NTOPL \faGithub}
+\item A KKS classifier for power plants was built using Voronoi interpolation and Betti curves, validated on multi-year data from four plants with up to 93\% accuracy, published at ECML PKDD. \href{https://github.com/karhunenloeve/TwirlFlake}{TwirlFlake \faGithub}
+\end{itemize}
+
+\divider
+\cvevent{Working Student: Data Science}{mb Support GmbH}{June 2015 -- March 2018}{Regensburg}
+\begin{itemize}[noitemsep]
+\item Industrial document-digitization pipeline; 1\% error-rate OCR via Google Cloud Vision + RNNs, ergonomic UI, ~60M docs throughput.
+\item Asterisk telecommunication API in Openviva C2; ~5,000 lines of PLSQL/Python.
+\end{itemize}
+
+\cvsection{Skills}
+\wheelchart{1.5cm}{0.5cm}{%
+  8/8em/accent/{Homology, \\ Tensor Categories \\ Algebraic Topology},
+  3/8em/accent!40/{Cooking},
+  6/8em/accent!60/{Deep Learning, \\ Machine Learning},
+  2/10em/accent!30/{Writing},
+  5/6em/accent!20/{Martial Arts, \\ Boxing}
+}
+
+\switchcolumn
+\cvsection{Awards \& Grants}
+\cvachievement{\faTrophy}{Top Reviewer Award}{Learning on Graphs (LOG) 2024}
+\divider
+\cvachievement{\faCreditCard}{Oskar-Karl-Forster Fellow}{Scholarship 2024}
+
+\cvsection{Languages}
+\cvskill{German}{5}
+\divider
+\cvskill{English}{4.5}
+\divider
+\cvskill{Italian}{4}
+\divider
+\cvskill{Polish}{3.5}
+\divider
+\cvskill{Spanish}{2}
+\medskip
+
+\cvsection{Education}
+\cvevent{M.Sc.\ Mathematics $\varnothing$ 1.1}{Friedrich-Alexander Universität}{2024 -- 2026}{Erlangen}
+UCT for the Homology of Ample Groupoids
+
+\divider
+\cvevent{B.Sc.\ Mathematics $\varnothing$ 2.0}{Friedrich-Alexander Universität}{2021 -- 2024}{Erlangen}
+Algebraic and Topological Persistence (1.0)
+
+\divider
+\cvevent{M.A.\ Information Science  $\varnothing$ 1.6}{Universität Regensburg}{2015 -- 2018}{Regensburg}
+Deep Learning of Radiation Dose for Nuclear Medicine Diagnostics (1.3)
+
+\divider
+\cvevent{B.A.\ German Philology $\varnothing$ 2.0}{Universität Regensburg}{2012 -- 2015}{Regensburg}
+Entwicklung einer Interpunktionsplattform mit linguistischen Moduln für das Information Retrieval (1.7)
+
+\divider
+\end{paracol}
+\end{document}
